@@ -1,4 +1,5 @@
-This is structured filter algorithm repoducing for ResNet50 v1.5 in Imagenet 1k. 
+This is structured filter algorithm repoducing for ResNet50 v1.5 in Imagenet 1k based on the CVPR paper [Filter Pruning via Geometric Median
+for Deep Convolutional Neural Networks Acceleration](https://openaccess.thecvf.com/content_CVPR_2019/papers/He_Filter_Pruning_via_Geometric_Median_for_Deep_Convolutional_Neural_Networks_CVPR_2019_paper.pdf).
 ![Drag Racing](pruning_fpgm.png)
 FPGM pruner based on nni (auto_ml tool package) is overwrited, distributed pytorch training is supported. And features like write to tensborboardX is added. 
 And after speedup:
